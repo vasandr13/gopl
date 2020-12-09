@@ -12,7 +12,7 @@ const (
 	GB
 	TB
 	PB
-  EB
+  	EB
 )
 
 func main() {
