@@ -8,7 +8,7 @@ import "fmt"
 const (
 	_  = iota             // 0
 	KB = 1 << (10 * iota) // 1 << (10 * 1) = 1 times 2 (ten times) = 1024
-	MB                    // 1 << (10 * 2) = 1 times 2 (twenty times)
+	MB                    // 1 << (10 * 2) = 1 times 2 (twenty times) = 1048576
 	GB
 	TB
 	PB
