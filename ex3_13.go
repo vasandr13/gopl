@@ -3,6 +3,7 @@
 // https://golang.org/doc/effective_go.html#constants
 // took explanation of bitwise operator from here:
 // https://stackoverflow.com/questions/5801008/go-and-operators
+// just another comment
 
 
 package main
