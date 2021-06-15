@@ -19,7 +19,7 @@ func renewKerberosTicket() {
 	for t := range ticker.C {
 		out, err := exec.Command("kinit", "-kt", "/etc/security/keytabs/hdfs-user.keytab", "hdfs-user").Output()
 		checkErr(err)
-		fmt.Printf("Kerberos Ticket for hdfs User Requested at: %v with output: %v\n", t, out)
+		log.Printf("Kerberos Ticket for hdfs User Requested at: %v with output: %v\n", t, out)
 	}
 }
 
