@@ -8,7 +8,11 @@ import (
 	"time"
 )
 
-
+func checkErr(err error) {
+	if err != nil {
+		log.Fatal(err)
+	}
+}
 
 func renewKerberosTicket() {
 	ticker := time.NewTicker(1 * time.Hour)
