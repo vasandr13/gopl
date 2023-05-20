@@ -1,5 +1,5 @@
 
-// This is ex 3_13 from The Go PL Book
+// This is ex 3_13 from The Go Programming Language Book
 // took it from here:
 // https://golang.org/doc/effective_go.html#constants
 // took explanation of bitwise operator from here:
