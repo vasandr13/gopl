@@ -1,3 +1,3 @@
 # gopl
 
-The Go Programming Language
+Learning Materials for The Go Programming Language
